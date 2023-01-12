@@ -25,7 +25,7 @@ const Purchase = () => {
                     return actions.order.create({
                         purchase_units: [{
                             amount: {
-                                value: 1.18
+                                value: 10.00
                             }
                         }]
                     })

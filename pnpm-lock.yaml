@@ -1,6 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@paypal/paypal-js': ^5.1.4
   '@solidjs/router': ^0.6.0
   '@tailwindcss/forms': ^0.5.3
   '@tailwindcss/typography': ^0.5.8
@@ -15,6 +16,7 @@ specifiers:
   vite-plugin-solid: ^2.5.0
 
 dependencies:
+  '@paypal/paypal-js': 5.1.4
   '@solidjs/router': 0.6.0_solid-js@1.6.6
   '@tailwindcss/forms': 0.5.3_tailwindcss@3.2.4
   '@tailwindcss/typography': 0.5.8_tailwindcss@3.2.4
@@ -600,6 +602,12 @@ packages:
     dependencies:
       '@nodelib/fs.scandir': 2.1.5
       fastq: 1.15.0
+
+  /@paypal/paypal-js/5.1.4:
+    resolution: {integrity: sha512-5ktge4DFOMu3rvFR4YWDiPm4wDUzOmghtCM9ZxgJyJCOJP+61IVYdrENysMay91T4GOZ10k2ywWcBN5shsGhLw==}
+    dependencies:
+      promise-polyfill: 8.2.3
+    dev: false
 
   /@popperjs/core/2.11.6:
     resolution: {integrity: sha512-50/17A98tWUfQ176raKiOGXuYpLyyVMkxxG6oylzL3BPOlA6ADGdK7EYunSa4I064xerltq9TGXs8HmOk5E+vw==}
@@ -1252,6 +1260,10 @@ packages:
       nanoid: 3.3.4
       picocolors: 1.0.0
       source-map-js: 1.0.2
+
+  /promise-polyfill/8.2.3:
+    resolution: {integrity: sha512-Og0+jCRQetV84U8wVjMNccfGCnMQ9mGs9Hv78QFe+pSDD3gWTpz0y+1QCuxy5d/vBFuZ3iwP2eycAkvqIMPmWg==}
+    dev: false
 
   /proxy-from-env/1.1.0:
     resolution: {integrity: sha512-D+zkORCbA9f1tdWRK0RaCR3GPv50cMxcrz4X8k5LTSUD1Dkw47mKJEZQNunItRTkWwgtaUSo1RVFRIG9ZXiFYg==}

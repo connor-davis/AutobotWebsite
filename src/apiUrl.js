@@ -1,0 +1,1 @@
+export default "https://api.auto-bot.co.za/api";

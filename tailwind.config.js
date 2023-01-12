@@ -37,7 +37,6 @@ module.exports = {
         main: 'url("/assets/bg.webp")',
       },
       colors: {
-        gray: colors.neutral,
       },
       fontWeight: ['hover', 'focus'],
       fontFamily: {

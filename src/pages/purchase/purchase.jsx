@@ -83,7 +83,7 @@ const Purchase = () => {
             <div class="flex w-full space-x-10 text-white p-10 animate-fade-in transition-all duration-300 ease-in-out">
                 <div class="flex flex-col space-y-5">
                     <div class="text-emerald-500 font-bold text-xl">Autobot Supporter</div>
-                    <div>For just <span class="text-emerald-400">R83,65/m ($5/m)</span> you can have access to Autobot
+                    <div>For just <span class="text-emerald-400">R167,29/m ($10/m)</span> you can have access to Autobot
                         which
                         will
                         help you perform the silent shot and slide cancel, because we know everyone does get lazy

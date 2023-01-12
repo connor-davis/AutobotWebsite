@@ -3,6 +3,7 @@ import {useNavigate} from "@solidjs/router";
 import apiUrl from "../../apiUrl";
 import useState from "../../hooks/state";
 import axios from "axios";
+import moment from "moment";
 
 const Purchase = () => {
     const navigate = useNavigate();
@@ -36,7 +37,8 @@ const Purchase = () => {
                             axios.put(
                                 apiUrl + "/users/" + userState.id,
                                 {
-                                    paid: true
+                                    paid: true,
+                                    paidDate: moment().format("dd/mm/yyy")
                                 },
                                 {
                                     headers: {

@@ -35,6 +35,9 @@ const Home = () => {
                         Slide Cancel Macro.
                     </div>
                     <div class="border-l border-t border-r border-b border-neutral-800 p-5 text-white">
+                        YY Macro.
+                    </div>
+                    <div class="border-l border-t border-r border-b border-neutral-800 p-5 text-white">
                         Custom timings.
                     </div>
                     <div class="border-l border-t border-r border-b border-neutral-800 p-5 text-white">

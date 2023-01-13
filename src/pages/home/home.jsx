@@ -24,7 +24,6 @@ const Home = () => {
                         partner, <a class="text-emerald-400">Cyclone Services</a>.
                     </div>
                 </div>
-                <img src={autobotWindow}/>
             </div>
             <div class="flex flex-col space-y-10">
                 <div class="text-emerald-400 text-xl font-bold">Features</div>

@@ -61,17 +61,15 @@ function App() {
             </div>
 
             <div class="flex flex-col w-full h-full overflow-y-auto px-96">
-                <PaypalProvider>
-                    <Routes>
-                        <Route path="/" element={Home}/>
-                        <Route path="/download" element={Download}/>
-                        <Route path="/purchase" element={Purchase}/>
-                        <Route path="/signIn" element={SignIn}/>
-                        <Route path="/signUp" element={SignUp}/>
-                        <Route path="/email-confirmed" element={EmailConfirmation}/>
-                        <Route path="/profile" element={Profile}/>
-                    </Routes>
-                </PaypalProvider>
+                <Routes>
+                    <Route path="/" element={Home}/>
+                    <Route path="/download" element={Download}/>
+                    <Route path="/purchase" element={Purchase}/>
+                    <Route path="/signIn" element={SignIn}/>
+                    <Route path="/signUp" element={SignUp}/>
+                    <Route path="/email-confirmed" element={EmailConfirmation}/>
+                    <Route path="/profile" element={Profile}/>
+                </Routes>
             </div>
 
             <div class="flex justify-center w-full h-auto p-5 border-t border-neutral-800 px-96">

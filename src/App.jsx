@@ -45,10 +45,8 @@ function App() {
                           class="text-gray-200 hover:text-emerald-400 transition-all duration-300 ease-in-out">Home</Link>
                     {authState.token && (
                         <>
-                            {userState.paid && <Link href="/download"
-                                                     class="text-gray-200 hover:text-emerald-400 transition-all duration-300 ease-in-out">Download</Link>}
-                            {!userState.paid && <Link href="/purchase"
-                                                      class="text-gray-200 hover:text-emerald-400 transition-all duration-300 ease-in-out">Purchase</Link>}
+                            <Link href="/download"
+                                  class="text-gray-200 hover:text-emerald-400 transition-all duration-300 ease-in-out">Download</Link>
                             <Link href="/profile"
                                   class="text-gray-200 hover:text-emerald-400 transition-all duration-300 ease-in-out">{userState.username}</Link>
                         </>

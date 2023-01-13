@@ -1,7 +1,5 @@
 import {Link, Route, Routes, useNavigate} from "@solidjs/router";
 import Home from "./pages/home/home";
-import PaypalProvider from "./providers/paypalProvider";
-import Purchase from "./pages/purchase/purchase";
 import useState from "./hooks/state";
 import SignIn from "./pages/authentication/signIn";
 import {onMount} from "solid-js";

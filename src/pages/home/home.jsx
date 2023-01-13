@@ -2,8 +2,8 @@ import autobotWindow from "../../assets/autobot-window.png";
 
 const Home = () => {
     return (
-        <div class="flex flex-col w-full animate-fade-in py-10">
-            <div class="flex space-x-10">
+        <div class="flex flex-col w-full animate-fade-in py-10 space-y-10">
+            <div class="grid grid-cols-2 gap-8">
                 <div class="flex flex-col space-y-10">
                     <div class="text-emerald-400 text-xl font-bold">Welcome to Autobot Macros!</div>
                     <div class="text-lg text-neutral-200">You might be wondering what exactly Autobot Macros is. Well to

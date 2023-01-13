@@ -64,7 +64,6 @@ function App() {
                 <Routes>
                     <Route path="/" element={Home}/>
                     <Route path="/download" element={Download}/>
-                    <Route path="/purchase" element={Purchase}/>
                     <Route path="/signIn" element={SignIn}/>
                     <Route path="/signUp" element={SignUp}/>
                     <Route path="/email-confirmed" element={EmailConfirmation}/>
